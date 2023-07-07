@@ -11,7 +11,7 @@ rename.py 能够对图片进行批量重命名 在样本标注前按照统一规
 
 train.py 进行训练，训练之前需要修改data/xx.yaml、models/yaml文件，以及选择weights中的初始权重文件
 detect.py 进行预测
-
-经过测试，当前的代码转成的onnx模型，不能转换为rknn模型
+detect_test.py 以及detect_test2.py 能够用笔记本自带的摄像头检测行人，并用鱼眼拍照保存
+经过测试，当前的代码转成的onnx模型，不能转换为rknn模型，若要转onnx及rknn，请看yolov5_rk
 
 
